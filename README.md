@@ -92,3 +92,8 @@ Solution: Add more annotated examples of difficult characters to the dataset and
 
 
 
+TO MAKE THIS PROGRAM GPU COMPATIBLE, run these bash commands:
+
+pip uninstall torch torchvision torchaudio
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+ 
