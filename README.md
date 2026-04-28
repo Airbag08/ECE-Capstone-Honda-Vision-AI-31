@@ -18,7 +18,7 @@ Prediction Software:
 2.	Open Python environment and open the prediction software file within the environment.
 3.	Install required Python Libraries including Ultralytics and GPU compatible Torchvision/Torchaudio
 4.	Ensure the trained model’s location is within the Python environment
-5.	Set the image directories to locations accessible on the local device.
+5. Set the directories for input_dir, output_dir, and history_dir to folder locations accessible on the local device.
 6.	Run the Python program.
 7.	Move images into the input folder to have the VIN predicted.
 
